@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'mi-primera-app';
+  title = 'Cronometro';
+  coso2 = 'Hola como estas';
+  numero: number = 0;
+  base: number = 5;
+
+  agregar(valor: number){
+    this.numero+=valor;
+  }
 }
